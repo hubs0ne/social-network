@@ -1,0 +1,21 @@
+.content {
+    grid-area: c;
+    background-color: deepskyblue;
+}
+
+.backgroundImage {
+    height: 300px;
+    width: 100%;
+}
+
+.avatar {
+    height: 150px;
+}
+
+.posts {
+
+}
+
+.item {
+color: blue;
+}

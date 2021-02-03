@@ -4,8 +4,8 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div>
-            <div className={classes.content}>
+        <div className={classes.content}>
+            <div>
                 <img className={classes.wallpaper}
                      src='https://blog.sandiego.org/wp-content/uploads/2020/04/SDT_Zoom-Backgrounds_April-8_Windansea-1_1200x630.jpg'
                      alt='hubs'/>

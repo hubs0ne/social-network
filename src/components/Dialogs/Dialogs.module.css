@@ -1,0 +1,16 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+    "d c";
+    background-color: #f8dc81;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.dialogs {
+    grid-area: d;
+}
+
+.chat {
+    grid-area: c;
+}

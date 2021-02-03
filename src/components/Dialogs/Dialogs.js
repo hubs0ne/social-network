@@ -7,9 +7,9 @@ const Dialogs = () => {
         <div className={classes.wrapper}>
             <div className={classes.dialogs}>
                 Dialogs:
-                <Dialog name='Mark' text='Send boobs :)'/>
-                <Dialog name='Alex' text='Send penis :)'/>
-                <Dialog name='Patrick' text='Send ass :)'/>
+                <Dialog name='Mark' text='Send book :)'/>
+                <Dialog name='Alex' text='How are you? :)'/>
+                <Dialog name='Patrick' text="I'm a star :)"/>
                 <Dialog name='Froda' text='Send ring :)'/>
                 <Dialog name='Mama' text='Why homework folder size 25gb?'/>
             </div>

@@ -5,13 +5,15 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 
-const App = (props) => {
+const App = () => {
   return (
       <div className='app-wrapper'>
-          <Header status='online' />
+          <Header />
           <Navbar />
+          <div>
           {/*<Profile />*/}
           <Dialogs />
+          </div>
           </div>
   )
 }

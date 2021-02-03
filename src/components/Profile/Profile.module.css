@@ -3,19 +3,12 @@
     background-color: deepskyblue;
 }
 
-.backgroundImage {
+.wallpaper {
     height: 300px;
-    width: 100%;
+    width: 80%;
 }
 
 .avatar {
     height: 150px;
-}
-
-.posts {
-
-}
-
-.item {
-color: blue;
+    border-radius: 70px;
 }

@@ -1,0 +1,9 @@
+.item {
+    color: blue;
+}
+
+.item img {
+    height: 40px;
+    border-radius: 25px;
+    border: deepskyblue dashed 2px;
+}

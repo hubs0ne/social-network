@@ -8,11 +8,15 @@
 }
 
 .header {
-    border: #214151 solid 1px;
+    border: #214151 solid 4px;
+    border-radius: 20px;
+    padding: 15px;
 }
 
-.correspondence {
-    height: 87%;
-    border: #214151 solid 2px;
-    margin-top: 5px;
+.correspondenceWindow {
+    height: 67%;
+    border: #214151 solid 5px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
 }

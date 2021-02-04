@@ -9,8 +9,8 @@ const Window = () => {
                 User name, online
             </header>
             <div className={classes.correspondence}>
+                i: pook <br/>
                 user name: hahaha
-                i: pook
             </div>
             <div>
                 <Input />

@@ -1,19 +1,26 @@
 import React from 'react'
 import classes from './Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts";
+import Avatar from "./Avatar/Avatar";
+import Biography from "./Biography/Biography";
 
 const Profile = () => {
     return (
         <div className={classes.content}>
             <div>
                 <img className={classes.wallpaper}
-                     src='https://blog.sandiego.org/wp-content/uploads/2020/04/SDT_Zoom-Backgrounds_April-8_Windansea-1_1200x630.jpg'
+                     src='https://cdn1.savepice.ru/uploads/2021/2/5/9f34c77e9ded6f0b71b4dfe3d05349b7-full.jpg'
                      alt='hubs'/>
             </div>
+            <div className={classes.avatar_bio}>
+            <Avatar />
             <div>
-                <img className={classes.avatar} src='https://vokrug-tv.ru/pic/news/5/f/c/2/rsz300x300_5fc2879465129c11d65749ab9e3db7cc.jpg' alt='avatar' />
+                <div className={classes.bio}>
+                    <Biography />
+                </div>
             </div>
             <MyPosts />
+            </div>
         </div>
     )
 }

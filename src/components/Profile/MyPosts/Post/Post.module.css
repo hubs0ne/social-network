@@ -1,9 +1,9 @@
 .item {
-    color: blue;
 }
 
 .item img {
     height: 40px;
     border-radius: 25px;
-    border: deepskyblue dashed 2px;
+    border: #a2d0c1 solid 4px;
+    margin-top: 10px;
 }

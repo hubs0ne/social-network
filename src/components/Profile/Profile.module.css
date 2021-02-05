@@ -1,14 +1,16 @@
 .content {
-    grid-area: c;
     background-color: #f8dc81;
 }
 
 .wallpaper {
     height: 300px;
     width: 80%;
+    border: #214151 solid 3px;
+    margin: 40px;
 }
 
-.avatar {
-    height: 150px;
-    border-radius: 70px;
+.avatar_bio {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 3fr 10fr;
 }

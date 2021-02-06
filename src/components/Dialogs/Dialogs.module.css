@@ -1,16 +1,15 @@
 .wrapper {
     display: grid;
     grid-template-areas:
-    "l w";
-    background-color: #f8dc81;
-    grid-template-columns: 3fr 8fr;
-    height: 90%;
+    "l m";
+    background-color: #f6f6f6;
+    grid-template-columns: 3fr 9fr;
 }
 
-.list {
+main.list {
     grid-area: l;
 }
 
-.window {
-    grid-area: w;
+main.window {
+    grid-area: m;
 }

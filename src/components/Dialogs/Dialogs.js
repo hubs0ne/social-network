@@ -12,6 +12,8 @@ const Dialogs = () => {
             <List />
             <List />
             <List />
+            <List />
+            <List />
         </div>
         <div className={classes.window}>
             <Window />

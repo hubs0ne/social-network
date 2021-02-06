@@ -4,8 +4,7 @@ import User from './User/User'
 
 const List = () => {
     return(
-        <div className={classes.list}>
-            Dialogs:
+        <div className={classes.main}>
             <User />
         </div>
     )

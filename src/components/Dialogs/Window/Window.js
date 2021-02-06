@@ -5,7 +5,7 @@ import Correspondence from "./Correspondence/Correspondence";
 
 const Window = () => {
     return (
-        <div className={classes.window}>
+        <div className={classes.main}>
             <header className={classes.header}>
                 User name, online
             </header>

@@ -5,12 +5,12 @@ const NewsBlock = (props) => {
     return (
         <div className={classes.news_block}>
             <div className={classes.header}>
-                {props.news_block_header}
+                {props.header}
             </div>
             <div className={classes.info}>
-                {props.news_block_info} <br/>
+                {props.info} <br/>
 
-                <a href='/' title='You realy intresting?'>
+                <a href='/' title='You really interesting?'>
                     More info..
                 </a>
             </div>

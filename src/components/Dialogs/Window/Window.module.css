@@ -1,8 +1,6 @@
-.window {
-    border: #214151 solid 3px;
-    border-radius: 10px;
+.main {
     margin-top: 7px;
-    height: 90%;
+    height: 100%;
     padding: 10px;
     margin-left: 10px;
 }

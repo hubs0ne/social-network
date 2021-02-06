@@ -1,8 +1,19 @@
 .nav {
     grid-area: n;
     background-color: #a2d0c1;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
 }
 
 .item {
     color: white;
+}
+
+.item a.active {
+    color: black;
+}
+
+.item a {
+    text-decoration: none;
 }

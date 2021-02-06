@@ -1,0 +1,26 @@
+.news_block {
+    border: black solid 4px;
+    border-radius: 20px;
+    box-shadow: gray 7px 7px;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 20px;
+    background-color: #e7e6e1;
+    font-family: cursive;
+}
+
+.header {
+    text-align: center;
+    border: black solid 8px;
+    border-radius: 6px;
+    font-size: 1cm;
+    padding: 10px;
+}
+
+.info {
+    border: black solid 4px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 7px;
+}

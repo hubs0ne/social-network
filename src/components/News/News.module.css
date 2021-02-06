@@ -1,0 +1,20 @@
+.news {
+    background-color: #f6f6f6;
+    border: #214151 solid 20px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.news h1 {
+    color: whitesmoke;
+    box-shadow: gray 20px 20px;
+    border: grey solid 3px;
+    border-radius: 30px;
+    padding: 6px;
+    text-align: center;
+    background-color: #98ded9;
+    margin: auto;
+    font-size: 2cm;
+    font-family: fantasy;
+}

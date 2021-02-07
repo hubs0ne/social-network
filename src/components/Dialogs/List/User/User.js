@@ -1,12 +1,17 @@
 import React from 'react'
 import classes from './User.module.css'
+import {NavLink} from "react-router-dom";
 
-const User = () => {
+
+const User = (props) => {
+    let path = '/dialogs/' + props.id;
     return (
-        <form className={classes.main}>
-            user name <br/>
-            user last message
-        </form>
+        <div className={classes.main}>
+            <NavLink to={path}>
+                <div>{props.userName}</div>
+                <div>{props.lastMessage}</div>
+            </NavLink>
+        </div>
     )
 }
 

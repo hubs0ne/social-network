@@ -8,12 +8,6 @@ const Dialogs = () => {
         <div className={classes.wrapper}>
         <div className={classes.list}>
             <List />
-            <List />
-            <List />
-            <List />
-            <List />
-            <List />
-            <List />
         </div>
         <div className={classes.window}>
             <Window />

@@ -1,4 +1,4 @@
-.main {
+.dialog {
     margin-top: 7px;
     height: 100%;
     padding: 10px;
@@ -11,10 +11,8 @@
     padding: 15px;
 }
 
-.correspondenceWindow {
-    height: 67%;
+.chatWindow {
     border: #214151 solid 5px;
-    border-radius: 25px;
-    padding: 15px;
-    margin-top: 10px;
+    margin: 10px;
+    padding: 10px;
 }

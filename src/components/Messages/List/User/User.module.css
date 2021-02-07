@@ -1,9 +1,9 @@
-.main {
+.user {
     border: #214151 solid 3px;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
 }
- .main a {
+ .user a {
      text-decoration: none;
  }

@@ -3,13 +3,11 @@ import classes from "./Post.module.css";
 
 const Post = (props) => {
     return (
-        <div className={classes.item}>
-            <img src='https://eugeneronin.com/wp-content/uploads/2010/01/avatar.jpg' alt='user' />
+        <div className={classes.post}>
+            <img src='https://eugeneronin.com/wp-content/uploads/2010/01/avatar.jpg' alt='user'/>
             {props.message}
             <div>
-                <span>
-                    like {props.like}
-                </span>
+                like {props.like}
             </div>
         </div>
     )

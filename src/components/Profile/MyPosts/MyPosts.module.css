@@ -1,3 +1,6 @@
-.my_posts {
-    margin-left: 10px;
+.myPosts {
+    margin: 30px;
+    grid-area: mp;
+    border: #214151 solid 5px;
+    padding: 10px;
 }

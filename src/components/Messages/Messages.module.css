@@ -1,15 +1,7 @@
-.wrapper {
+.messages {
     display: grid;
     grid-template-areas:
     "l m";
     background-color: #f6f6f6;
     grid-template-columns: 3fr 9fr;
-}
-
-main.list {
-    grid-area: l;
-}
-
-main.window {
-    grid-area: m;
 }

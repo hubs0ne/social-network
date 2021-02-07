@@ -1,6 +1,6 @@
 .bio {
     grid-area: b;
-    margin-top: 30px;
-    border: #214151 solid 3px;
-    margin-right: 130px;
+    border: #214151 solid 5px;
+    border-radius: 20px;
+    padding: 10px;
 }

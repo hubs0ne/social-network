@@ -3,8 +3,8 @@ import classes from './Input.module.css'
 
 const Input = () => {
     return(
-        <form className={classes.main}>
-            <input/>
+        <form className={classes.input}>
+            <input />
             <button>Send</button>
         </form>
     )

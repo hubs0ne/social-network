@@ -1,12 +1,11 @@
 .avatar {
-    height: 150px;
-    border-radius: 70px;
-    border-bottom: #214151 solid 20px;
-    border-right: #a2d0c1 solid 10px;
-    border-top: #214151 solid 3px;
-    border-left: #a2d0c1 solid 3px;
+    grid-area: a;
 }
 
-.main {
-    padding: 10px;
+.avatar img {
+    height: 200px;
+    width: 300px;
+    border: #214151 solid 15px;
+    border-radius: 80px;
+    margin: 15px;
 }

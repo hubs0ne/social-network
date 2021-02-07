@@ -1,16 +1,13 @@
 .content {
     background-color: #f6f6f6;
+    display: grid;
+    grid-template-areas:
+    "w w"
+    "a b"
+    "mp mp";
 }
 
 .wallpaper {
-    height: 300px;
-    width: 80%;
-    border: #214151 solid 3px;
-    margin: 20px;
-}
-
-.avatar_bio {
-    display: grid;
-    grid-template-areas: "a b";
-    grid-template-columns: 4fr 12fr;
+    grid-area: w;
+    margin: 15px;
 }
